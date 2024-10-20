@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caramel Bakeshop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/index.css" />
+  </head>
+  <body>
+    <script type="module" src="/src/index.js"></script>
+    <div class="main_contents">
+      <main>
+        <h1 class="head">Welcome to Caramel Bakeshop</h1>
+        <section class="content">
+          <div class="desserts">
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-waffle-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-waffle-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-waffle-tablet.jpg"
+                  alt="Responsive Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Waffle</h2>
+                <p class="item_name">Waffle with Berries</p>
+                <p class="item_price" id="item_price">₦6.500</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-creme-brulee-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-creme-brulee-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-creme-brulee-tablet.jpg"
+                  alt="Creme Brulee Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Crème Brûlée</h2>
+                <p>Vanilla Bean Crème Brûlée</p>
+                <p class="item_price" id="item_price">₦7.000</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-macaron-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-macaron-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-macaron-tablet.jpg"
+                  alt="Creme Brulee Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Macaron</h2>
+                <p>Macaron Mix of Five</p>
+                <p class="item_price" id="item_price">₦8.000</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-tiramisu-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-tiramisu-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-tiramisu-tablet.jpg"
+                  alt="Creme Brulee Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Tiramisu</h2>
+                <p>Classic Tiramisu</p>
+                <p class="item_price" id="item_price">₦5.500</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-baklava-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-baklava-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-baklava-tablet.jpg"
+                  alt="Baklava Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Baklava</h2>
+                <p>Pistachio Baklava</p>
+                <p class="item_price" id="item_price">₦4.000</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-meringue-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-meringue-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-meringue-tablet.jpg"
+                  alt="Meringue Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Meringue</h2>
+                <p>Lemon Meringue Pie</p>
+                <p class="item_price" id="item_price">₦5.000</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-cake-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-cake-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-cake-tablet.jpg"
+                  alt="Cake Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Cake</h2>
+                <p>Red Velvet Cake</p>
+                <p class="item_price" id="item_price">₦4.500</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-brownie-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-brownie-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-brownie-tablet.jpg"
+                  alt="Brownie Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Brownie</h2>
+                <p>Salted Caramel Brownie</p>
+                <p class="item_price" id="item_price">₦5.500</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <div class="item_image">
+                <!-- <picture>
+                <source
+                  media="(max-width: 480px)"
+                  srcset="/src/assets/images/image-panna-cotta-mobile.jpg"
+                />
+                <source
+                  media="(min-width: 1440px)"
+                  srcset="/src/assets/images/image-panna-cotta-desktop.jpg"
+                /> -->
+                <img
+                  src="/src/assets/images/image-panna-cotta-tablet.jpg"
+                  alt="Panna Cotta Image"
+                />
+                <!-- </picture> -->
+                <div class="add_to_cart">
+                  <div class="empty_button">
+                    <button><i class="bi bi-cart"></i>Add to Cart</button>
+                  </div>
+                  <div class="selected">
+                    <i class="fa-solid fa-minus"></i>
+                    <p class="unit">1</p>
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="item_description">
+                <h2>Panna Cotta</h2>
+                <p>Vanilla Panna Cotta</p>
+                <p class="item_price" id="item_price">₦6.500</p>
+              </div>
+            </div>
+          </div>
+          <div class="cart">
+            <h2>
+              Your Cart
+              <p>(0)</p>
+            </h2>
+            <div class="empty_cart">
+              <img
+                src="/src/assets/images/illustration-empty-cart.svg"
+                alt="Empty Cart Image"
+              />
+              <p>Your items will appear here</p>
+            </div>
+            <div class="cart_with_items" style="display: none">
+              <button id="clearCartButton">Clear Cart</button>
+              <ul class="cart_items">
+                <!-- <li class="product">
+                <h2>Waffle</h2>
+                <div class="product_price">
+                  <div class="calc">
+                    <p class="quantity">1x</p>
+                    <p class="selling_price">@  ₦6.500</p>
+                    <p class="final_price">₦6.500</p>
+                  </div>
+                  <i class="bi bi-x-circle"></i>
+                </div>
+              </li>
+              <div class="divider"></div> -->
+              </ul>
+              <div class="total">
+                <p>Order Total</p>
+                <p class="to_be_paid">₦0</p>
+              </div>
+              <div class="note">
+                <i class="bi bi-tree"></i>
+                <p>This is a <b>carbon-neutral</b> delivery</p>
+              </div>
+              <button class="confirm_order" id="confirmOrderButton">
+                Confirm Order
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+      <aside style="display: none;">
+        <i class="bi bi-check-circle"></i>
+        <div class="confirm_head">
+          <h1>Order Confirmed</h1>
+          <p>We hope you enjoy your treats!</p>
+        </div>
+        <div class="order">
+          <ul class="confirmed_order" id="confirmedOrderList"></ul>
+          <div class="total">
+            <p>Order Total</p>
+            <p class="confirmed_item_to_be_paid">₦0</p>
+          </div>
+          <button class="new_order" id="startNewOrder">Start New Order</button>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>
