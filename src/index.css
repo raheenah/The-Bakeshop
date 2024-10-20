@@ -2,7 +2,7 @@
   --focus: #f06846;
   --focus-light: #e68c70;
   --white: #ffffff;
-  --background: #feeee9;
+  --background: #f5edea;
   --grey: #c9bab6;
 }
 
@@ -36,6 +36,7 @@ main {
   .head {
     font-size: 1.5rem;
     color: var(--focus);
+    margin-block: 2rem;
   }
   .desserts {
     display: grid;
