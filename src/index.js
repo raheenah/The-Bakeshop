@@ -380,3 +380,18 @@ startNewOrder.addEventListener('click', () => {
   clearCart();
   aside.style.display = "none";
 });
+
+
+// const document = window.document;
+
+// document.addEventListener("click", function (event) {
+//   const aside = document.querySelector("aside");
+
+//   // Check if the click is outside the aside element
+//   if (!aside.contains(event.target)) {
+//     clearCart(); // Call the function to clear the cart
+
+//     // Hide the aside by setting its display to 'none'
+//     aside.style.display = "none";
+//   }
+// });
